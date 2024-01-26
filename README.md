@@ -20,7 +20,7 @@ webbrowser
 Collections
 
 #Interaction Instructions:
-Onceall of the required packages have been installed and the imported associated files ("track.py", "playlisy.py", "spotify_client.py", and "sql_commands.py") have been downloaded into the same folder as "FinalProject.py", run "Final_Project.py" from the command line. It will prompt the user for a username to base a playlist off of.
+Once all of the required packages have been installed and the imported associated files ("track.py", "playlisy.py", "spotify_client.py", and "sql_commands.py") have been downloaded into the same folder as "FinalProject.py", run "Final_Project.py" from the command line. It will prompt the user for a username to base a playlist off of.
 
 #Considerations:
 The Spotify Oauth token entered expires after one hour. A new one will need to be genereated and pasted into the file for it to coninue to function after 1 hour. The error which denotes that this has expired is a KeyError that the items requested from the Spotify API do not exist. (KeyError: 'items')
